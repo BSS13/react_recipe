@@ -10,7 +10,7 @@ class RecipeList extends Component
             
             <div>
             <h1 style={recipeList}>RecipeList</h1>
-            <p style={startParagaph}>Select the Recipe you want to prepare</p>
+            <p style={startParagaph}>Select the Recipe you wish to try your hands on!!</p>
 
             <div className="Recipes">
                 {
