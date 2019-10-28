@@ -7,7 +7,7 @@ class Recipe extends Component
        
         return(
             <div>
-                <h1 style={recipeHeading}>Let's Cook {this.props.rname} </h1>
+                <h1 style={recipeHeading}>Let's begin the Cooking {this.props.rname} </h1>
                 {
                     (this.props.rsteps.map((step)=>(
                         <p key={step.sid}>
