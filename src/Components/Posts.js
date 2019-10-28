@@ -12,7 +12,7 @@ class Posts extends Component
         // ));
         return(
             <div>
-                <h1>User Stories</h1>
+                <h1>User with their Stories</h1>
                 <div className="Posts">
                     {
                         (this.props.presentPosts.map((post)=>(

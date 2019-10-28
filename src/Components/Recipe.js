@@ -15,9 +15,11 @@ class Recipe extends Component
                         Step {step.sid} {') '}{step.step}
                         </p>
                     )))
+
                 }
             </div>
         )
+        
     }
 }
 
